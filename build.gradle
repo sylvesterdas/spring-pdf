@@ -1,6 +1,9 @@
 group = 'in.tacto'
-// name = 'springpdf'
 version = '1.0.1'
+
+rootProject.group = group
+rootProject.name = 'spring-pdf'
+rootProject.version = version
 
 buildscript {
     repositories {
@@ -33,5 +36,6 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     compile("org.springframework.boot:spring-boot-devtools")
+    compile 'com.itextpdf:itextpdf:5.0.6'
     testCompile("junit:junit")
 }
