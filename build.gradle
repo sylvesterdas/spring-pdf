@@ -2,7 +2,6 @@ group = 'in.tacto'
 version = '1.0.1'
 
 rootProject.group = group
-rootProject.name = 'spring-pdf'
 rootProject.version = version
 
 buildscript {
